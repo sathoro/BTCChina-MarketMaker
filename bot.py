@@ -177,7 +177,7 @@ def go():
 	public_key = ''
 	private_key = ''
 	bot = BTCChinaMM(public_key, private_key)
-	bot.trade_trend()
+	bot.trade_spread()
 
 if __name__ == '__main__':
 	go()
